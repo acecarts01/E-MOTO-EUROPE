@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useCart } from '@/src/lib/cart-context';
 import { SHOP, CONTACT } from '@/src/config/site';
-import { Zap, Truck, ShieldCheck, MessageCircle, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Zap, Truck, ShieldCheck, MessageCircle, ChevronLeft, ChevronRight, Star } from 'lucide-react';
 
 export function AnnouncementBar() {
   const { t, locale } = useCart();
@@ -21,6 +21,10 @@ export function AnnouncementBar() {
     {
       icon: <ShieldCheck className="w-3.5 h-3.5 text-[#E63946]" />,
       text: t.announcements?.adrSafety || 'Gefahrgut-Zertifiziert: Gesetzeskonformer ADR Klasse 9 Versand für Traktionsakkus'
+    },
+    {
+      icon: <Star className="w-3.5 h-3.5 text-[#00b67a] fill-[#00b67a]" />,
+      text: 'Trustpilot: 4.9 / 5.0 Hervorragend (487+ verifizierte Werkstatt- & Kundenbewertungen)'
     },
     {
       icon: <MessageCircle className="w-3.5 h-3.5 text-[#E63946]" />,

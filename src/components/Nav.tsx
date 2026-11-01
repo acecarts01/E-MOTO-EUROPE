@@ -15,7 +15,8 @@ import {
   ChevronDown,
   Globe,
   SlidersHorizontal,
-  Scale
+  Scale,
+  Star
 } from 'lucide-react';
 
 export function Nav({ onOpenSearch }: { onOpenSearch?: () => void }) {
@@ -150,6 +151,14 @@ export function Nav({ onOpenSearch }: { onOpenSearch?: () => void }) {
             >
               {t.nav.contact}
             </Link>
+
+            <Link
+              href={{ pathname: '/', hash: 'reviews' }}
+              className="text-sm font-medium text-slate-300 hover:text-white transition-colors flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/[0.04] border border-white/5 hover:border-[#00b67a]/40 group"
+            >
+              <Star className="w-3.5 h-3.5 text-[#00b67a] fill-[#00b67a]" />
+              <span className="font-mono text-xs font-semibold">4.9 ★ (487+)</span>
+            </Link>
           </div>
 
           {/* Action Icons: Search, Language Switcher, Cart Button */}
@@ -278,6 +287,15 @@ export function Nav({ onOpenSearch }: { onOpenSearch?: () => void }) {
             className="block py-1.5 text-sm font-medium text-slate-300 hover:text-white"
           >
             {t.nav.contact}
+          </Link>
+
+          <Link
+            href={{ pathname: '/', hash: 'reviews' }}
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center gap-2 py-2 px-3 rounded-lg bg-[#00b67a]/10 border border-[#00b67a]/20 text-xs font-mono text-[#00b67a] font-bold"
+          >
+            <Star className="w-3.5 h-3.5 fill-[#00b67a]" />
+            <span>4.9 / 5.0 Trustpilot (487+ Reviews)</span>
           </Link>
 
           <div className="pt-3 border-t border-[#22222a]">

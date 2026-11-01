@@ -84,31 +84,35 @@ export function CartProvider({ children, initialLocale }: { children: React.Reac
 
   // Synchronize with localStorage safely after hydration
   useEffect(() => {
-    setMounted(true);
-    try {
-      const savedCart = localStorage.getItem(SITE.cartKey);
-      if (savedCart) {
-        setItems(JSON.parse(savedCart));
-      }
+    const timer = setTimeout(() => {
+      setMounted(true);
+      try {
+        const savedCart = localStorage.getItem(SITE.cartKey);
+        if (savedCart) {
+          setItems(JSON.parse(savedCart));
+        }
 
-      const savedAge = localStorage.getItem('emoto-age-verified');
-      if (savedAge === 'true') {
-        setIsAgeVerified(true);
-      } else {
-        setIsAgeVerified(false);
-      }
+        const savedAge = localStorage.getItem('emoto-age-verified');
+        if (savedAge === 'true') {
+          setIsAgeVerified(true);
+        } else {
+          setIsAgeVerified(false);
+        }
 
-      const savedCookie = localStorage.getItem('emoto-cookie-consent');
-      if (savedCookie === 'accepted') {
-        setCookieConsent(true);
-      } else if (savedCookie === 'declined') {
-        setCookieConsent(false);
-      } else {
-        setCookieConsent(null);
+        const savedCookie = localStorage.getItem('emoto-cookie-consent');
+        if (savedCookie === 'accepted') {
+          setCookieConsent(true);
+        } else if (savedCookie === 'declined') {
+          setCookieConsent(false);
+        } else {
+          setCookieConsent(null);
+        }
+      } catch {
+        // ignore
       }
-    } catch {
-      // ignore
-    }
+    }, 0);
+
+    return () => clearTimeout(timer);
   }, []);
 
   // Save items to localStorage

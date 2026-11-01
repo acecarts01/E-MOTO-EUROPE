@@ -5,6 +5,7 @@ import { Link } from '@/src/i18n/routing';
 import { SITE, CONTACT, BRAND, CATEGORIES, PRODUCTS, FAQ, SHOP } from '@/src/config/site';
 import { useCart } from '@/src/lib/cart-context';
 import { SmartImage } from '@/src/components/SmartImage';
+import { TrustpilotReviewSlider } from '@/src/components/TrustpilotReviewSlider';
 import {
   Zap,
   ShieldCheck,
@@ -17,7 +18,8 @@ import {
   CheckCircle2,
   ChevronRight,
   Sliders,
-  Scale
+  Scale,
+  Star
 } from 'lucide-react';
 
 export function HomeClient() {
@@ -100,6 +102,27 @@ export function HomeClient() {
                   <Sliders className="w-4 h-4 text-slate-400" />
                   <span>{t.hero?.ctaKits || 'Umbausätze 250W–5kW'}</span>
                 </Link>
+              </div>
+
+              {/* Trustpilot Hero Social Proof Pill */}
+              <div className="pt-1">
+                <a
+                  href="#reviews"
+                  className="inline-flex items-center gap-3 px-4 py-2.5 rounded-xl bg-white/[0.03] border border-white/10 hover:border-[#00b67a]/50 transition-all group shadow-md"
+                >
+                  <div className="flex items-center gap-1">
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <div key={star} className="w-4 h-4 bg-[#00b67a] flex items-center justify-center rounded-[2px]">
+                        <Star className="w-2.5 h-2.5 text-white fill-white" />
+                      </div>
+                    ))}
+                  </div>
+                  <div className="text-xs font-mono">
+                    <span className="font-bold text-white">4.9 / 5.0</span>
+                    <span className="text-slate-400"> auf Trustpilot · </span>
+                    <span className="text-[#00b67a] font-bold underline decoration-[#00b67a]/40 group-hover:decoration-[#00b67a]">487+ Bewertungen ansehen</span>
+                  </div>
+                </a>
               </div>
 
               {/* Brand Entity Statement */}
@@ -420,6 +443,9 @@ export function HomeClient() {
           ))}
         </div>
       </section>
+
+      {/* 4.5 487+ REAL-TIME TRUSTPILOT REVIEWS SLIDER */}
+      <TrustpilotReviewSlider />
 
       {/* 5. AUTHORITY & MUNICH WORKSHOP SECTION */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

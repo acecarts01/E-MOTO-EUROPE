@@ -10,6 +10,7 @@ import { ChatHub } from '@/src/components/ChatHub';
 import { AgeGateModal } from '@/src/components/AgeGateModal';
 import { CookieBanner } from '@/src/components/CookieBanner';
 import { SearchModal } from '@/src/components/SearchModal';
+import { ReviewPopupToast } from '@/src/components/ReviewPopupToast';
 import { useTranslations } from 'next-intl';
 
 export function SiteShell({ children, locale }: { children: React.ReactNode, locale: string }) {
@@ -53,6 +54,9 @@ export function SiteShell({ children, locale }: { children: React.ReactNode, loc
 
         {/* Strict TTDSG / DSGVO Cookie Banner */}
         <CookieBanner />
+
+        {/* Real-Time Trustpilot Review Pop-up (Every 60s) */}
+        <ReviewPopupToast />
 
         {/* Client-side Instant Search Modal */}
         <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
