@@ -1,0 +1,67 @@
+{
+  "ucp": "1.0",
+  "protocol_version": "1.0",
+  "spec": "https://ucp.dev/specification/overview/",
+  "schema": "https://ucp.dev/schema/v1.json",
+  "site": "https://emoto-europe.de",
+  "name": "E-MOTO EUROPE",
+  "description": "Europas spezialisierter Fachbetrieb für High-Performance E-Motos, Hochvolt-Umbausätze (1000W–5000W), 72V Traktionsbatterien nach ADR Klasse 9 sowie 100% StVZO-konforme Pedelec-Systeme.",
+  "services": [
+    {
+      "id": "product-catalog",
+      "type": "catalog",
+      "url": "https://emoto-europe.de/shop/",
+      "description": "Full product catalog"
+    },
+    {
+      "id": "mcp-server",
+      "type": "mcp",
+      "url": "https://emoto-europe.de/api/mcp",
+      "description": "MCP Streamable HTTP server"
+    },
+    {
+      "id": "order",
+      "type": "commerce",
+      "url": "https://wa.me/4917689234510",
+      "description": "Place orders via SEPA Vorkasse or WhatsApp Concierge"
+    },
+    {
+      "id": "wholesale",
+      "type": "b2b",
+      "url": "https://emoto-europe.de/wholesale/",
+      "description": "Wholesale pricing and bulk ordering for shops"
+    }
+  ],
+  "capabilities": [
+    "browse",
+    "search",
+    "inquiry",
+    "wholesale",
+    "content",
+    "mcp"
+  ],
+  "endpoints": {
+    "mcp": "https://emoto-europe.de/api/mcp",
+    "catalog": "https://emoto-europe.de/shop/",
+    "contact": "https://emoto-europe.de/contact/",
+    "agent_skills": "https://emoto-europe.de/.well-known/agent-skills/index.json",
+    "mcp_server_card": "https://emoto-europe.de/.well-known/mcp/server-card.json",
+    "api_catalog": "https://emoto-europe.de/.well-known/api-catalog",
+    "llms_txt": "https://emoto-europe.de/llms.txt"
+  },
+  "currency": "EUR",
+  "minimum_order_usd": 0,
+  "payment_methods": [
+    "sepa-vorkasse",
+    "crypto-BTC",
+    "crypto-USDT",
+    "klarna-rechnung",
+    "ideal",
+    "blik"
+  ],
+  "legal": {
+    "age_restriction": "16+",
+    "product_type": "E-Motos, Conversion Kits, Traction Batteries",
+    "compliance": "EN 15194, StVZO, ADR Klasse 9"
+  }
+}

@@ -1,0 +1,517 @@
+{
+  "nav": {
+    "shop": "Shop & Gesamtkatalog",
+    "motos": "E-Motos & Dirt Bikes",
+    "kits": "E-Bike Umbausätze",
+    "batteries": "72V Akkus & Ladetechnik",
+    "legalGuides": "Rechtsratgeber & Magazin",
+    "about": "Über uns & Werkstatt",
+    "faq": "Häufige Fragen (FAQ)",
+    "contact": "Kontakt & Meisterwerkstatt",
+    "b2b": "B2B Händlerportal",
+    "compare": "Modellvergleich",
+    "subsidies": "Förderrechner",
+    "tracking": "Sendungsverfolgung",
+    "cart": "Warenkorb",
+    "search": "Modell, Motor oder Volt suchen...",
+    "lang": "Sprache",
+    "allCategories": "Alle Produkte & Umbausätze",
+    "skipToMain": "Zum Hauptinhalt springen"
+  },
+  "announcements": {
+    "cryptoDiscount": "5% Sofortrabatt bei Zahlung mit Krypto (Bitcoin & USDT)",
+    "freeShipping": "Versandkostenfrei ab 199 € für Zubehör & Komponenten innerhalb DE",
+    "adrSafety": "Gefahrgut-Zertifiziert: Gesetzeskonformer ADR Klasse 9 Versand für Traktionsakkus",
+    "whatsappAdvice": "Technische Werkstattberatung per WhatsApp: +49 176 8923 4510"
+  },
+  "chat": {
+    "title": "E-MOTO EUROPE Werkstatt-Concierge",
+    "status": "Online · Werkstatt München / Freising",
+    "subtitle": "Persönliche Beratung durch unsere Meisterwerkstatt",
+    "whatsappFastLane": "WhatsApp Fast-Lane",
+    "phoneDirect": "Zentrale München anrufen",
+    "emailTickets": "E-Mail Ticket eröffnen",
+    "faqDirect": "Häufige Fragen öffnen",
+    "availabilityNotice": "Mo–Fr 09:00–18:00 Uhr MEZ · Ingenieur antwortet in < 2 Std.",
+    "close": "Chat schließen",
+    "open": "Werkstatt-Chat"
+  },
+  "hero": {
+    "badge": "DEUTSCHES INGENIEURSWERK & ZERTIFIZIERTE LOGISTIK",
+    "h1": "HIGH-PERFORMANCE",
+    "h1Highlight": "E-MOTOS & DRIVETRAINS",
+    "subtitle": "Europas führende Plattform für Hochvolt-Antriebstechnik, zertifizierte 72V Traktionsbatterien nach ADR Gefahrgutklasse 9 (UN 3480) und 100% StVZO-konforme 250W Pedelec-Systeme.",
+    "ctaShop": "Gesamtkatalog entdecken",
+    "ctaKits": "Umbausätze 250W–5kW",
+    "entityStatement": "E-MOTO EUROPE: Zentraler Werkstatt- und Entwicklungsstandort in Freising bei München. Eigene Prüfstandsdaten, HiGo-Industrie-Kabelbäume und gesetzeskonformer Speditionsversand in alle EU-Mitgliedstaaten.",
+    "fastDispatch": "Lagernd in Deutschland — Express- & Speditionsversand",
+    "adrSafety": "ADR Klasse 9 Gefahrgut-zertifiziert für sichere Akku-Zustellung",
+    "telemetry": {
+      "voltageLabel": "SPANNUNG",
+      "voltageValue": "72V DC",
+      "voltageSub": "High-Rate Bus",
+      "powerLabel": "PEAK LEISTUNG",
+      "powerValue": "12 kW",
+      "powerSub": "Dyno Validiert",
+      "torqueLabel": "DREHMOMENT",
+      "torqueValue": "280 Nm",
+      "torqueSub": "Sofort am Rad",
+      "speedLabel": "SPEED",
+      "speedValue": "85 km/h",
+      "speedSub": "Off-Road Only"
+    }
+  },
+  "trust": {
+    "engineering": "Deutsches Ingenieurswesen",
+    "engineeringSub": "Transparente Prüfstandsdaten, HiGo-Stecker & CNC-Drehmomentstützen",
+    "adrLogistics": "ADR Klasse 9 Gefahrgut",
+    "adrLogisticsSub": "Zertifizierter Speditionsversand für 52V & 72V Traktionsakkus",
+    "plugAndPlay": "Rechtliche Klarheit",
+    "plugAndPlaySub": "Strikte Trennung zwischen 250W StVZO Pedelecs und Offroad-Sportgeräten",
+    "payment": "Sichere Bezahlung",
+    "paymentSub": "SEPA Vorkasse, Klarna, iDEAL, BLIK & 5% Krypto-Rabatt (Kein PayPal)"
+  },
+  "bento": {
+    "badge": "INGENIEURSKUNST & SICHERHEIT",
+    "title": "Zertifizierte Hochvolt-Ingenieursmatrix",
+    "subtitle": "Warum Europas anspruchsvollste Fahrer und Werkstätten auf E-MOTO EUROPE Antriebe vertrauen.",
+    "card1Badge": "MESSSTAND-VALIDIERT",
+    "card1Title": "Reale Spitzenleistungen statt Scheinangaben",
+    "card1Text": "Jedes System wird auf unserem stationären Motorprüfstand in Freising dynamisch belastet. 12kW Spitzenleistung bedeuten echte, thermisch überwachte Phasenströme bis 500A.",
+    "card2Badge": "SICHERHEITSNORM",
+    "card2Title": "Strikte Trennung: StVZO vs. Offroad",
+    "card2Text": "Keine faulen Kompromisse: Unser 250W Pedelec-Kit erfüllt strikt EN 15194 (zulassungs- und helmpflichtfrei). Offroad-Kits bis 5000W sind klar als Sportgeräte deklariert.",
+    "card3Badge": "GEFAHRGUT ADR 9",
+    "card3Title": "Gefahrgut-Transportzertifizierung",
+    "card3Text": "Traktionsakkus über 100Wh sind Gefahrgut der Klasse 9 (UN 3480/3481). Wir versenden ausschließlich in 4G-zertifizierten Spezialkartons mit Hebebühnen-Spedition.",
+    "card4Badge": "PAN-EUROPA SUPPORT",
+    "card4Title": "Zentraldepot & Schnelle Ersatzteilversorgung",
+    "card4Text": "Alle Verschleißteile, HiGo-Kabelbäume, Smart-BMS und FOC-Controller lagern im Münchener Zentraldepot. Versand in die gesamte EU innerhalb von 24–48 Stunden."
+  },
+  "categoriesSection": {
+    "badge": "PRODUKTSPEKTRUM",
+    "title": "Kategorien & Modellreihen",
+    "subtitle": "Vom 100% StVZO-konformen Pedelec-Umbau bis zum kompromisslosen 72V Renngerät.",
+    "viewCategory": "Kategorie ansehen",
+    "productsCount": "Artikel verfügbar"
+  },
+  "bestsellersSection": {
+    "badge": "WERKSTATT-EMPFEHLUNGEN",
+    "title": "Aktuelle Bestseller aus unserer Werkstatt",
+    "subtitle": "Vorkonfigurierte Hochleistungs-Aggregate mit bester Kundenbewertung und sofortiger Verfügbarkeit.",
+    "viewDetails": "Details & Konfiguration",
+    "addToCart": "In den Warenkorb",
+    "cryptoPrice": "Krypto-Preis (-5%)",
+    "viewAll": "Gesamten Katalog ansehen",
+    "stvzoBadge": "100% StVZO",
+    "offroadBadge": "Offroad Sport"
+  },
+  "aboutSection": {
+    "badge": "INGENIEURS-STANDORT DEUTSCHLAND",
+    "title": "Über E-MOTO EUROPE",
+    "subtitle": "Europas Fachanbieter für High-Performance E-Motos, Hochvolt-Umbausätze (1000W–5000W), 72V Traktionsbatterien nach ADR Klasse 9 sowie 100% StVZO-konforme Pedelec-Systeme.",
+    "p1": "Die Begeisterung für elektrisch angetriebene Zweiräder wächst rasant. Doch mit der Zunahme von unkontrollierten Importen entstanden erhebliche Risiken: thermisch instabile Batterien, unterdimensionierte Ausfallenden an Fahrradrahmen und irreführende Angaben zur StVZO.",
+    "p2": "E-MOTO EUROPE wurde in Freising bei München gegründet, um Hochvolt-Antriebstechnik mit kompromissloser mechanischer Sicherheit, transparenter Rechtsaufklärung und zertifizierter Gefahrgutlogistik zu verbinden.",
+    "v1Title": "Eigene Prüfstandsdaten",
+    "v1Text": "Echte Dauer- und Spitzenleistungen, thermische Überwachung und FOC-Sinusabstimmung.",
+    "v2Title": "ADR Klasse 9 Gefahrgut",
+    "v2Text": "Zertifizierter Speditionsversand für Akkus > 100Wh mit Hebebühne und Avisierung.",
+    "v3Title": "100% StVZO vs. Offroad",
+    "v3Text": "Vollkommene Rechtssicherheit durch strikte Trennung von Pedelec und Sportgerät.",
+    "v4Title": "Ersatzteilgarantie",
+    "v4Text": "Controller, BMS, Displays und HiGo-Kabelbäume dauerhaft ab München lieferbar.",
+    "learnMoreBtn": "Mehr über unsere Werkstatt erfahren"
+  },
+  "legalSection": {
+    "title": "Rechtliche Beratung & StVZO-Transparenz",
+    "text": "Wir stehen für ehrliche Aufklärung: 250W Pedelecs nach EN 15194 sind auf allen öffentlichen Straßen und Radwegen führerschein-, zulassungs- und helmbefreit fahrbar. Hochvolt-Aggregate (1000W–5000W, 72V) sind reine Offroad-Sportgeräte und ausschließlich auf abgesperrtem Privatgelände oder speziellen Rennstrecken gestattet.",
+    "readGuideBtn": "Vollständigen Rechtsleitfaden lesen"
+  },
+  "legalBanner": {
+    "title": "Wichtiger Hinweis zur Rechtslage in Deutschland & der EU",
+    "text": "Fahrzeuge und Umbausätze mit mehr als 250W Nenndauerleistung oder Unterstützung über 25 km/h sind reine Offroad-Sportgeräte ohne StVZO-Zulassung (Nutzung nur auf Privatgelände/Rennstrecken). Unser 250W Pedelec-Kit entspricht EN 15194 und ist zu 100% straßenzugelassen.",
+    "learnMore": "Rechtsleitfaden lesen",
+    "offroadWarning": "Reines Offroad-Sportgerät (Nicht im Geltungsbereich der StVZO)",
+    "pedelecCertified": "100% StVZO-konform nach EN 15194:2017+A1:2024"
+  },
+  "shopPage": {
+    "breadcrumb": "Shop",
+    "title": "E-Motos, Umbausätze & 72V Komponenten",
+    "subtitle": "Wählen Sie zwischen 100% StVZO-konformen Pedelec-Umbausätzen (250W, EN 15194) für den Straßenverkehr und kompromisslosen Offroad-Sportgeräten (1000W–5000W, 72V) für Privatgelände.",
+    "filterAll": "Alle Artikel",
+    "filterStVZOAll": "Alle Zulassungsarten",
+    "filterStVZOOnly": "100% StVZO",
+    "filterOffroadOnly": "Offroad Sport",
+    "sortBy": "Sortierung",
+    "sortFeatured": "Empfohlen / Bestseller",
+    "sortPriceAsc": "Preis: aufsteigend",
+    "sortPriceDesc": "Preis: absteigend",
+    "inStock": "Sofort ab Lager Freising",
+    "adrNotice": "ADR Klasse 9 Gefahrgut",
+    "viewProduct": "Details & Spezifikation",
+    "addToCart": "In den Warenkorb",
+    "addedToCart": "Im Warenkorb",
+    "details": "Details",
+    "cryptoPrice": "Krypto-Preis"
+  },
+  "product": {
+    "specs": "Technische Spezifikationen",
+    "addToCart": "In den Warenkorb",
+    "buyNow": "Direkt zur Kasse",
+    "inStock": "Auf Lager — Versandbereit in 24–48h",
+    "dispatchNotice": "Versand aus deutschem Zentrallager (Freising/München)",
+    "warranty": "2 Jahre gesetzliche Gewährleistung nach BGB",
+    "legalNotice": "Rechtlicher Status & StVZO-Hinweis",
+    "cryptoDiscountBadge": "5% Rabatt bei Krypto-Zahlung",
+    "relatedProducts": "Passende Komponenten & Zubehör",
+    "quantity": "Menge",
+    "vatNotice": "inkl. 19% MwSt., zzgl. Versand"
+  },
+  "aboutPage": {
+    "breadcrumb": "Über uns",
+    "badge": "INGENIEURS-STANDORT DEUTSCHLAND",
+    "title": "Über E-MOTO EUROPE",
+    "subtitle": "Fachanbieter für High-Performance E-Motos, renntaugliche E-Bike Umbausätze (1000W–5000W), 72V Hochstrom-Lithiumakkus und 100% StVZO-konforme 250W Pedelec-Systeme.",
+    "storyTitle": "1. Unsere Entstehungsgeschichte & Philosophie",
+    "storyP1": "Die Begeisterung für elektrisch angetriebene Zweiräder wächst rasant. Doch mit der Zunahme von unkontrollierten Importen entstanden erhebliche Risiken: thermisch instabile Batterien, unterdimensionierte Ausfallenden an Fahrradrahmen und irreführende Angaben zur StVZO.",
+    "storyP2": "E-MOTO EUROPE wurde in Freising bei München gegründet, um High-Power Elektroantriebe mit kompromissloser Sicherheit, transparenter Rechtsaufklärung und zertifizierter Gefahrgut-Logistik zu verbinden.",
+    "legalTitle": "2. Deutsches Recht & Klare Trennung: StVZO vs. Offroad",
+    "legalP1": "Wir stehen für absolute Rechtssicherheit. In der Branche wird häufig versucht, hochmotorisierte Fahrzeuge fälschlicherweise als Fahrrad anzupreisen. Wir erteilen solchen Täuschungen eine klare Absage:",
+    "legalPedelecTitle": "100% StVZO-konforme Pedelecs",
+    "legalPedelecText": "Unser 250W Street-Legal Umbausatz erfüllt strikt die europäische Sicherheitsnorm EN 15194:2017+A1:2024 sowie § 63a StVZO. Er unterstützt bis 25 km/h und ist ohne Helm, Führerschein oder Versicherung legal fahrbar.",
+    "legalOffroadTitle": "High-Power E-Motos & 1000W–5000W Umbausätze",
+    "legalOffroadText": "Diese Aggregate sind reine Offroad-Sportgeräte für Privatgrundstücke, Motocross-Strecken und Hard-Enduro Parks. Sie sind im Geltungsbereich der StVZO nicht zugelassen.",
+    "adrTitle": "3. Zertifizierte Gefahrgut-Logistik nach ADR Klasse 9",
+    "adrText": "Traktionsbatterien über 100Wh sind Gefahrgut der Klasse 9 (UN 3480/3481). Wir versenden konsequent in zertifizierten 4G-Gefahrgutkartons, mit Vermiculite-Dämpfung und geschulten Speditionen (Dachser, Schenker) mit Hebebühne.",
+    "diffTitle": "4. Unsere 4 Differenzierungsmerkmale",
+    "milestonesTitle": "5. Historische Meilensteine"
+  },
+  "contactPage": {
+    "breadcrumb": "Kontakt",
+    "badge": "FACHBERATUNG & WERKSTATT MÜNCHEN",
+    "title": "Kontakt & Meisterwerkstatt",
+    "subtitle": "Haben Sie technische Fragen zu Motoren, Akku-Kompatibilität, StVZO-Vorschriften oder einer individuellen Montage? Unsere Prüfingenieure in Freising bei München beraten Sie gerne.",
+    "formTitle": "Nachricht an die technische Werkstatt senden",
+    "nameLabel": "Vollständiger Name",
+    "emailLabel": "E-Mail-Adresse",
+    "phoneLabel": "Telefonnummer (für Rückruf)",
+    "subjectLabel": "Thema / Betreff",
+    "subjectGeneral": "Allgemeine technische Beratung",
+    "subjectTechnical": "Umbausatz & Motoren-Kompatibilität",
+    "subjectOrder": "Frage zu laufender Bestellung & Bezahlung",
+    "subjectB2B": "B2B Händler- & Werkstattanfrage",
+    "messageLabel": "Ihre Nachricht an unsere Werkstatt",
+    "submitBtn": "Technische Anfrage absenden",
+    "submitting": "Wird übermittelt...",
+    "guaranteeTitle": "Garantierte Rückmeldezeit < 2 Stunden",
+    "guaranteeText": "An Werktagen (Mo–Fr 09:00–18:00 MEZ) antwortet Ihnen ein spezialisierter Prüfingenieur unserer Münchener Werkstatt innerhalb von maximal zwei Stunden.",
+    "directPhone": "Direktkontakt Werkstatt",
+    "directWhatsapp": "WhatsApp Fachberatung",
+    "directEmail": "E-Mail Ticketsystem",
+    "directAddress": "Werkstatt & Prüfstand Freising"
+  },
+  "faqPage": {
+    "breadcrumb": "FAQ",
+    "title": "Häufige Fragen & Technische Beratung",
+    "subtitle": "Transparente und fundierte Antworten unserer Meisterwerkstatt zu Zulassungsbestimmungen nach StVZO, ADR-Gefahrgutversand, Bezahlung und Garantie.",
+    "moreQuestions": "Haben Sie eine spezielle technische Frage?",
+    "askWhatsapp": "Per WhatsApp fragen",
+    "askEmail": "E-Mail Ticket eröffnen"
+  },
+  "comparePage": {
+    "breadcrumb": "Modellvergleich",
+    "title": "Modell- & Motorenvergleich",
+    "subtitle": "Direkter technischer Vergleich von Spitzenleistung, Drehmoment, StVZO-Zulassung und Akku-Architektur.",
+    "colModel": "Modell / System",
+    "colCategory": "Kategorie",
+    "colPower": "Spitzenleistung",
+    "colTorque": "Drehmoment",
+    "colBattery": "Traktionsbatterie",
+    "colSpeed": "Höchstgeschwindigkeit",
+    "colStVZO": "StVZO Zulassung",
+    "colPrice": "Preis (inkl. MwSt.)",
+    "colAction": "Aktion",
+    "yesStVZO": "100% StVZO",
+    "noStVZO": "Offroad Sport"
+  },
+  "subsidiesPage": {
+    "breadcrumb": "Förderrechner",
+    "title": "E-Mobilitäts-Förderrechner Europa",
+    "subtitle": "Ermitteln Sie potenzielle Förderprogramme, Umweltboni und Steuervergünstigungen für gewerbliche und private E-Zweiräder in der EU.",
+    "selectCountry": "Wählen Sie Ihr Land",
+    "userType": "Nutzungsart",
+    "commercialUser": "Gewerbliche Nutzung (B2B / Flotte)",
+    "privateUser": "Private Nutzung (Pendler / Freizeit)",
+    "potentialSubsidy": "Geschätzte maximale Fördersumme:",
+    "subsidyNote": "Förderungen variieren je nach Bundesland, Kanton und Kommune. Eine offizielle Bewilligung der zuständigen Behörde vor Kaufabschluss ist erforderlich."
+  },
+  "trackingPage": {
+    "breadcrumb": "Sendungsverfolgung",
+    "title": "Sendungs- & Speditionsverfolgung",
+    "subtitle": "Verfolgen Sie Ihren Gefahrgut-Speditionsversand (ADR Klasse 9) oder Ihr DHL Express Paket in Echtzeit.",
+    "trackingInputPlaceholder": "Auftragsnummer oder Tracking-Code (z.B. EMO-849201-EU)...",
+    "trackBtn": "Sendungsstatus abfragen",
+    "carrierNotice": "Lithium-Traktionsakkus und E-Motos werden per Spedition (Dachser / DB Schenker) mit Hebebühne und telefonischer Avisierung zugestellt."
+  },
+  "magazine": {
+    "breadcrumb": "Magazin & Recht",
+    "title": "Technik, Recht & Gefahrgut-Leitfäden",
+    "subtitle": "Fundiertes Wissen unserer Münchener Meisterwerkstatt zu Zulassungsbestimmungen nach StVZO, Gefahrgutbeförderung (ADR Klasse 9) und Tuning.",
+    "readGuide": "Leitfaden lesen",
+    "publishedOn": "Veröffentlicht am",
+    "readTime": "Lesezeit:",
+    "workshopEditorial": "Werkstattredaktion",
+    "summary": "Zusammenfassung:",
+    "disclaimerTitle": "Gesetzlicher Hinweis von E-MOTO EUROPE",
+    "disclaimerText": "Alle Angaben erfolgen nach bestem Wissen auf Basis der StVZO, der EN 15194:2017+A1:2024 sowie der Vorschriften des ADR.",
+    "relatedProducts": "Passende Systeme & Komponenten aus unserer Werkstatt",
+    "backToOverview": "Zurück zur Magazin-Übersicht"
+  },
+  "b2b": {
+    "title": "B2B Händler- & Werkstattportal",
+    "subtitle": "Konditionen für Zweiradwerkstätten, Händler und Rennteams im europäischen Binnenmarkt.",
+    "tier1": "Stufe 1 (ab 3 Einheiten): 15% Händlermarge",
+    "tier2": "Stufe 2 (ab 10 Einheiten): 25% Händlermarge + Palettenpriorität",
+    "tier3": "Stufe 3 (OEM / Rahmenpartner): Bis zu 35% Rabatt + White-Label Optionen",
+    "formTitle": "Händler-Registrierung anfordern",
+    "companyLabel": "Firmenname / Werkstatt",
+    "vatLabel": "Umsatzsteuer-Identifikationsnummer (USt-IdNr.)",
+    "contactLabel": "Ansprechpartner",
+    "emailLabel": "Geschäftliche E-Mail",
+    "phoneLabel": "Telefonnummer",
+    "volumeLabel": "Geschätzter Jahresbedarf an Motoren/Akkus",
+    "submitBtn": "Händler-Konditionen anfordern"
+  },
+  "cart": {
+    "title": "Ihr Warenkorb",
+    "empty": "Ihr Warenkorb ist derzeit leer",
+    "emptySub": "Entdecken Sie unsere 2026 E-Motos, Umbausätze und Akkus.",
+    "startShopping": "Jetzt einkaufen",
+    "subtotal": "Zwischensumme",
+    "cryptoDiscount": "5% Krypto-Rabatt (BTC / USDT)",
+    "shipping": "Versand",
+    "freeShippingNotice": "Versandkostenfrei ab 199 € (ausgenommen Speditionsversand für Komplettbikes/Gefahrgut)",
+    "total": "Gesamtsumme",
+    "checkoutBtn": "Zur Kasse / Bestellung vorbereiten",
+    "vatNotice": "Alle Preise inkl. 19% MwSt., zzgl. Versand",
+    "paymentMethodsTitle": "Zahlungsmethoden (Kein PayPal, keine direkte Kreditkarteneingabe):",
+    "ageNotice": "Mit der Bestellung bestätigen Sie, dass Sie mindestens 16 Jahre alt sind.",
+    "orderSuccessTitle": "Vielen Dank für Ihre Bestellung!"
+  },
+  "checkout": {
+    "step1": "Kontaktdaten",
+    "step2": "Lieferadresse (EU / DE / CH)",
+    "step3": "Zahlungsart & Bestätigung",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer (für Speditionsavisierung)",
+    "address": "Straße und Hausnummer",
+    "city": "Stadt",
+    "zip": "Postleitzahl",
+    "country": "Land",
+    "notes": "Anmerkungen zur Montage / Rahmen",
+    "confirmAge": "Ich bestätige, dass ich mindestens 16 Jahre alt bin und die StVZO-Hinweise zur Kenntnis genommen habe.",
+    "placeOrder": "Kaufverbindlich anfragen / Bestellentwurf absenden",
+    "submitting": "Wird übermittelt..."
+  },
+  "confirmation": {
+    "orderTitle": "Auftragserfassung & Zahlungsanweisung",
+    "orderSubtitle": "Ihr Bestellentwurf wurde erfolgreich im System registriert.",
+    "orderRef": "Auftragsnummer",
+    "productCol": "POSITION",
+    "totalCol": "BETRAG",
+    "cryptoNotice": "5% Krypto-Sofortrabatt",
+    "sepaBankName": "BANK",
+    "sepaHolder": "HOLDER",
+    "inquiryTitle": "Vielen Dank für Ihre Anfrage!",
+    "inquirySubtitle": "Ticket erfolgreich eröffnet.",
+    "b2bTitle": "Willkommen im Händlernetzwerk!",
+    "b2bSubtitle": "B2B Registrierung erfolgreich eingegangen.",
+    "whatsappVerify": "Auftrag per WhatsApp verifizieren",
+    "printReceipt": "Beleg drucken / PDF speichern",
+    "continueShopping": "Zurück zum Store"
+  },
+  "footer": {
+    "brandDescription": "E-MOTO EUROPE ist Europas spezialisierter Hub für High-Performance E-Motos, E-MTB Umbausätze und gefahrgut-zertifizierte 72V Traktionsbatterien nach ADR Klasse 9.",
+    "legalNotice": "Reine Offroad-Modelle und Umbausätze >250W sind im Geltungsbereich der StVZO nicht für den öffentlichen Straßenverkehr zugelassen. 250W Pedelec-Systeme entsprechen EN 15194.",
+    "adrNotice": "Traktionsbatterien mit mehr als 100Wh unterliegen den europäischen Gefahrgutvorschriften ADR Klasse 9 (UN 3480 / UN 3481) und werden ausschließlich in UN-geprüften Spezialkartons per Spedition mit Hebebühne versandt.",
+    "dispatchNotice": "Express- und Gefahrgut-Speditionsversand in alle EU-Mitgliedstaaten und die Schweiz.",
+    "rightsReserved": "Alle Rechte vorbehalten. Preise inkl. gesetzlicher 19% MwSt., zzgl. Versand.",
+    "catalogCol": "Shop & Systeme",
+    "serviceCol": "Service & Technik",
+    "legalCol": "Recht & Compliance",
+    "contactCol": "Standort München",
+    "impressum": "Impressum (§ 5 DDG)",
+    "privacy": "Datenschutz (DSGVO)",
+    "terms": "AGB & Kundeninformation",
+    "revocation": "Widerrufsbelehrung",
+    "batteryNotice": "Batteriehinweise (BattG)",
+    "tracking": "Speditionsverfolgung",
+    "subsidies": "Förderrechner",
+    "compare": "Modellvergleich"
+  },
+  "compliance": {
+    "ageGateTitle": "Altersüberprüfung & Sicherheitshinweis (16+)",
+    "ageGateSubtitle": "German Law & Off-Road Motor Vehicle Safety Standard",
+    "ageGateText": "Unser Sortiment umfasst leistungsstarke E-Motos, Hochvolt-Umbausätze (1000W–5000W) und 72V Traktionsbatterien. Bitte bestätigen Sie, dass Sie mindestens 16 Jahre alt sind.",
+    "ageGateConfirm": "Ich bin mindestens 16 Jahre alt",
+    "ageGateLeave": "Abbrechen / Seite verlassen",
+    "cookieTitle": "Datenschutz & Cookie-Einstellungen (DSGVO / TTDSG)",
+    "cookieText": "Wir verwenden ausschließlich technisch notwendige Cookies (z. B. für den Warenkorb und Spracheinstellungen). Es werden standardmäßig keinerlei Werbe- oder Tracking-Cookies an Dritte übermittelt.",
+    "cookieAccept": "Alle akzeptieren",
+    "cookieNecessary": "Nur notwendige Cookies"
+  },
+  "faqItems": [
+    {
+      "question": "Sind Ihre E-Motos und Hochleistungs-Umbausätze für den öffentlichen Straßenverkehr (StVZO) zugelassen?",
+      "answer": "Nein, E-Motos und Umbausätze mit mehr als 250 Watt oder Geschwindigkeiten über 25 km/h sind reine Offroad-Sportgeräte ohne Straßenzulassung. Der Betrieb ist ausschließlich auf abgesperrtem Privatgelände oder speziellen Rennstrecken gestattet. Einzige Ausnahme ist unser 250W Pedelec-Kit nach EN 15194, das zu 100% StVZO-konform im Straßenverkehr gefahren werden darf."
+    },
+    {
+      "question": "Warum bieten Sie weder PayPal noch direkte Kreditkarteneingabe an?",
+      "answer": "High-Power E-Motos, Lithium-Traktionsbatterien nach ADR Klasse 9 und Motorsportkomponenten werden von Standard-US-Konsumenten-Gateways häufig wegen regulatorischer Pauschalklauseln blockiert. Wir setzen daher auf hochgradig sichere europäische Banküberweisung (SEPA Vorkasse / Instant), verifizierte Zahlarten wie Klarna, iDEAL, BLIK sowie Kryptowährungen mit 5% Direktrabatt."
+    },
+    {
+      "question": "Wie funktioniert der 5% Krypto-Rabatt (Bitcoin & USDT)?",
+      "answer": "Wählen Sie im Bestellformular Krypto als Zahlungsmethode. Der Rabatt von 5% wird im Warenkorb und in der Proforma-Rechnung automatisch in Abzug gebracht. Nach Auftragserfassung erhalten Sie unsere offizielle Wallet-Adresse sowie den tagesaktuellen Wechselkurs zur unkomplizierten Überweisung."
+    },
+    {
+      "question": "Wie erfolgt der Versand von 72V Traktionsbatterien und Komplettfahrzeugen?",
+      "answer": "Traktionsakkus über 100Wh werden gemäß internationalem Gefahrgutrecht ADR Klasse 9 (UN 3480/3481) in UN-geprüften Spezialverpackungen per Spedition versendet. Bei Komplettfahrzeugen erfolgt die Lieferung auf Palette mit Ladebordwand und vorheriger telefonischer Avisierung durch die Spedition."
+    },
+    {
+      "question": "Gibt es eine Garantie und wie sieht die Ersatzteilversorgung aus?",
+      "answer": "Alle Artikel unterliegen der gesetzlichen zweijährigen Gewährleistung nach deutschem BGB. In unserem Werkstattstützpunkt in Freising bei München lagern wir alle wesentlichen Verschleißteile wie Sinus-Controller, Smart-BMS, HiGo-Kabelbäume, Hall-Sensoren und Display-Einheiten für rasche Reparaturen."
+    },
+    {
+      "question": "Kann ich als Händler oder Werkstatt zu Großhandelskonditionen (B2B) bestellen?",
+      "answer": "Ja. Gewerbliche Zweiradwerkstätten, Fachhändler und Rennsport-Teams mit verifizierter USt-IdNr. können über unser B2B-Großhandelsportal gestaffelte Rabatte, Direktbelieferung per Spedition sowie Priority-Teileversorgung anfragen. Nach Prüfung der Gewerbeanmeldung schalten wir Ihren Händler-Zugang innerhalb von 24 Stunden frei."
+    }
+  ],
+  "categories": [
+    {
+      "slug": "komplette-e-motos",
+      "name": "Komplette E-Motos & Dirt Bikes",
+      "description": "Leistungsstarke elektrische Offroad-Motorräder, Trail-Bikes und Enduros für abgesperrte Strecken und Privatgelände.",
+      "legalStatus": "Reine Offroad-Sportgeräte (Nicht zulässig im Geltungsbereich der StVZO)"
+    },
+    {
+      "slug": "e-bike-umbausaetze",
+      "name": "E-Bike Umbausätze & Motoren",
+      "description": "Umrüstsätze für Fahrräder und Mountainbikes – von 250W StVZO-Pedelec-Kits bis zu 5000W Offroad-Kraftpaketen.",
+      "legalStatus": "Differenziert: 250W StVZO-konform / 1000W–5000W Offroad-Sportgeräte"
+    },
+    {
+      "slug": "akkus-ladetechnik",
+      "name": "Akkus & Ladetechnik (ADR 9)",
+      "description": "Gefahrgut-zertifizierte 52V, 60V und 72V Lithium-Traktionsbatterien mit Smart-BMS und Schnellladegeräte.",
+      "legalStatus": "ADR Klasse 9 Gefahrgut (UN 3480 / UN 3481) Speditionsversand"
+    },
+    {
+      "slug": "komponenten-drivetrain",
+      "name": "Komponenten, Drivetrain & Cockpit",
+      "description": "Verstärkte Drehmomentstützen, CNC Gasgriffe, FOC Sinuswellen-Controller, Kettenkits und Bremsen.",
+      "legalStatus": "Offroad- und Tuning-Ersatzteile"
+    },
+    {
+      "slug": "sicherheitsausruestung",
+      "name": "Sicherheitsausrüstung & Zubehör",
+      "description": "ECE 22.06 zertifizierte Helme, Downhill-Protektoren, E-Prüfzeichen LED-Scheinwerfer und Schwerlast-Heckträger.",
+      "legalStatus": "ECE & TÜV-geprüfte Sicherheitsausrüstung"
+    }
+  ],
+  "products": [
+    {
+      "slug": "hyper-drive-2000w-motor-52v-akku-bundle",
+      "name": "HYPER-DRIVE 2000W Motor & 52V Akku Bundle (inkl. CNC Gasgriff)",
+      "shortDescription": "Kraftvoller 2000W bürstenloser Hecknabenmotor gepaart mit einem kapazitätsstarken 52V Lithium-Ionen-Akkupack und direktem CNC-Gasgriff.",
+      "description": "Verwandeln Sie Ihr Mountainbike in ein kompromissloses Offroad-Fahrzeug. Das Set beinhaltet einen extrem drehmomentstarken 2000W Hecknabenmotor, eingespeicht in eine verstärkte Aluminium-Hohlkammerfelge, einen 52V High-Discharge-Akku mit Smart-BMS, Sinuswellen-Controller, Farb-LCD-Display sowie verstärkte CNC Drehmomentstützen. Plug-and-Play Anschluss. Ausschließlich für den Einsatz auf Privatgelände und Rennstrecken (Off-Road only). Nicht zulässig im Geltungsbereich der StVZO.",
+      "legalNotice": "Ausschließlich für den Einsatz auf Privatgelände und Rennstrecken (Off-Road only). Nicht zulässig im Geltungsbereich der StVZO."
+    },
+    {
+      "slug": "2026-etm-rtr-sport-elektro-dirt-bike",
+      "name": "2026 ETM™ RTR SPORT Elektro Dirt Bike",
+      "shortDescription": "Das 2026 ETM RTR Sport bietet maximale Beschleunigung, sofortige Gasannahme und eine verstärkte Offroad-Fahrwerksgeometrie.",
+      "description": "Gebaut für anspruchsvolle Singletrails und Motocross-Strecken. Ausgestattet mit einem hocheffizienten bürstenlosen Motor, einstellbarem Upside-Down-Fahrwerk, hydraulischen 4-Kolben-Bremsen und bissiger Bereifung. Keine Kupplung, kein Benzin, sofortiges Drehmoment. Reines Offroad-Sportgerät ohne StVZO-Zulassung. Gefahrguttransport gemäß ADR Klasse 9 (UN 3480 / UN 3481) per Spedition mit Hebebühne.",
+      "legalNotice": "Reines Offroad-Sportgerät ohne StVZO-Zulassung. Ausschließlich für den Einsatz auf Privatgelände und Rennstrecken (Off-Road only)."
+    },
+    {
+      "slug": "strike-cycles-shadow-72v-7kw-dirt-bike",
+      "name": "Strike Cycles SHADOW 72V / 7kW Elektro Dirt Bike",
+      "shortDescription": "7000W Peak Motocross-Power mit kompromissloser 72V-Architektur für höchste Endgeschwindigkeiten und extreme Steigungen.",
+      "description": "Die Strike Cycles SHADOW liefert brachiale 72V-Performance. Entwickelt mit einem ultraleichten Aluminium-Brückenrahmen, 7kW Spitzenleistung, voll einstellbarer Dämpfung und Motocross-Standardrädern. Unbändige Offroad-Performance für Trails und private Tracks. Ausschließlich für den Einsatz auf Privatgelände und Rennstrecken (Off-Road only). Gefahrguttransport gemäß ADR Klasse 9.",
+      "legalNotice": "Ausschließlich für den Einsatz auf Privatgelände und Rennstrecken (Off-Road only). Nicht zulässig im Geltungsbereich der StVZO."
+    },
+    {
+      "slug": "ultra-drive-3000w-motor-72v-batterie-bundle",
+      "name": "ULTRA-DRIVE 3000W Motor & 72V Batterie Bundle",
+      "shortDescription": "3000W Hecknabenmotor kombiniert mit einem thermisch stabilen 72V High-Amp Akkupack, programmierbarem Controller und Zubehör.",
+      "description": "Das ultimative Performance-Paket für eigene Umbauten. Beinhaltet einen robusten 3000W Hochleistungsmotor mit Temperaturüberwachung, massiven 72V Traktionsakku mit Hochstromzellen, programmierbaren 80A Sinus-Controller mit Rekuperation, Vollfarb-Display und lasergeschnittenen Drehmomentstützen. Reines Offroad-Setup. Gefahrguttransport gemäß ADR Klasse 9.",
+      "legalNotice": "Ausschließlich für den Einsatz auf Privatgelände und Rennstrecken (Off-Road only). Nicht zulässig im Geltungsbereich der StVZO."
+    },
+    {
+      "slug": "genuine-fx-cnc-praezisions-gasgriff",
+      "name": "Genuine FX CNC Präzisions-Gasgriff (Passend für Sur-Ron / Talaria / DIY)",
+      "shortDescription": "Hochpräziser CNC-Aluminium Gasdrehgriff mit kugelgelagertem Lauf für lineare, ruckfreie Gasannahme ohne Totbereich.",
+      "description": "Verhindert ruckartiges Anfahren und Schläge im Antriebsstrang. Aus dem Vollen gefrästes 6061-T6 Flugzeug-Aluminium, kontaktlose Hall-Sensoren und langlebige Doppelkugellager machen diesen Griff zum Maßstab für Sur-Ron, Talaria und leistungsstarke Umbauten. Plug-and-Play mit wasserdichtem HiGo-Steckverbinder.",
+      "legalNotice": "Tuning- und Rennsport-Komponente für E-Motos und Offroad-Bikes."
+    },
+    {
+      "slug": "250w-street-legal-pedelec-umbaussatz-stvzo",
+      "name": "250W Street-Legal Pedelec Umbausatz (StVZO & EN 15194 Konform)",
+      "shortDescription": "100% legaler 250W Pedelec-Umbausatz für den Straßenverkehr nach StVZO mit Tretsensor und automatischer 25 km/h Abschaltung.",
+      "description": "Rüsten Sie Ihr Fahrrad vollkommen gesetzeskonform zum Pedelec um. Entspricht der europäischen Norm EN 15194:2017+A1:2024 und den Vorgaben des § 63a StVZO. Nenndauerleistung 250W, Motorunterstützung nur beim Treten bis max. 25 km/h. Führerschein-, helm- und versicherungsfrei in ganz Deutschland und der EU fahrbar. Inklusive 36V Rahmenakku, Drehmoment-Sensor-Tretlager und StVZO-Prüfbescheinigung.",
+      "legalNotice": "Pedelec-konform nach EN 15194:2017+A1:2024 (250W, 25 km/h). Legal im Geltungsbereich der StVZO auf allen öffentlichen Straßen und Radwegen fahrbar."
+    },
+    {
+      "slug": "72v-42ah-traktionsakku-smart-bms-adr9",
+      "name": "APEX High-Rate 72V 42Ah Traktionsakku (Smart Bluetooth BMS, 3024Wh)",
+      "shortDescription": "Hochstromfeste 72V Traktionsbatterie mit Molicel P42A Zellen und 150A Smart BMS für maximale Dauerbelastung.",
+      "description": "Speziell konzipiert für anspruchsvolle 72V E-Motos und Renneinsätze. Ausgestattet mit Molicel INR-21700-P42A Hochstromzellen, reinem Nickelblech-Laserschweißverfahren und integriertem Bluetooth Smart BMS zur Überwachung jeder Einzelzelle per iOS/Android App. Gefahrguttransport gemäß ADR Klasse 9 (UN 3480) im geprüften Stahl-Verbundgehäuse.",
+      "legalNotice": "Gefahrguttransport gemäß ADR Klasse 9 (UN 3480). Nur für den Offroad- und Renneinsatz."
+    },
+    {
+      "slug": "torp-tc500-controller-sur-ron-talaria",
+      "name": "Torp TC500 Plug-and-Play Controller (bis 25kW Peak)",
+      "shortDescription": "Der führende FOC Sinuswellen-Controller für Sur-Ron Light Bee und Talaria Sting mit original Display-Unterstützung.",
+      "description": "Modernste Field-Oriented Control (FOC) Technologie. Ermöglicht extreme Leistungssteigerungen bei niedriger Motortemperatur und samtweicher Gasannahme. Erkennt automatisch Akkutyp und Motortemperatur. Smartphone-App zur Live-Abstimmung von Motorbremse, Leistungskurven und Rekuperation.",
+      "legalNotice": "Tuning-Komponente für Rennstrecken- und Offroad-Nutzung."
+    }
+  ],
+  "posts": [
+    {
+      "slug": "stvzo-recht-e-moto-pedelec-deutschland-2026",
+      "title": "StVZO, Pedelec & E-Moto: Rechtliche Fakten für Deutschland & EU 2026",
+      "excerpt": "Wann ist ein E-Bike legal? Alles zu EN 15194, 250W Begrenzung, Daumengas-Verbot, L1e-B Typgenehmigungen und Fahren auf Privatgelände.",
+      "category": "Rechtsleitfaden"
+    },
+    {
+      "slug": "adr-klasse-9-gefahrgutversand-lithium-batterien",
+      "title": "Lithium-Akkus & Gefahrgutlogistik nach ADR Klasse 9 (UN 3480)",
+      "excerpt": "Warum Traktionsbatterien über 100Wh strengen Gefahrgut-Vorschriften unterliegen und wie wir zertifizierten Speditionsversand sicherstellen.",
+      "category": "Gefahrgut & Technik"
+    },
+    {
+      "slug": "vergleich-pedelec-s-pedelec-e-moto-offroad",
+      "title": "Vergleich 2026: Pedelec vs. S-Pedelec vs. High-Torque E-Moto",
+      "excerpt": "Leistung, Rechtslage, Kosten und Einsatzzwecke: Der neutrale Leitfaden zur Wahl des richtigen Antriebssystems für Alltag oder Rennstrecke.",
+      "category": "Kaufberatung"
+    }
+  ],
+  "searchPage": {
+    "breadcrumb": "Suche",
+    "title": "Suche & Katalog-Index",
+    "subtitle": "Finden Sie E-Motos, Umbausätze, 72V Batterien, CNC-Komponenten und StVZO-Rechtsratgeber.",
+    "placeholder": "Suchbegriff eingeben (z. B. 2000W, ETM RTR, 72V Akku)...",
+    "filterLabel": "Filter nach Straßenzulassung:",
+    "productsFound": "Gefundene Produkte & Systeme",
+    "articlesFound": "Gefundene Rechtsleitfäden & Ratgeber",
+    "noResults": "Keine passenden Ergebnisse gefunden."
+  },
+  "legalContent": {
+    "agbTitle": "Allgemeine Geschäftsbedingungen (AGB)",
+    "privacyTitle": "Datenschutzerklärung (DSGVO)",
+    "impressumTitle": "Impressum (§ 5 DDG)",
+    "widerrufTitle": "Widerrufsbelehrung",
+    "batteryTitle": "Batterie- & Entsorgungshinweise (BattG)"
+  }
+}

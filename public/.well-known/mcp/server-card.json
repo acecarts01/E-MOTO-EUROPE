@@ -1,0 +1,121 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/server-card/v1.json",
+  "serverInfo": {
+    "name": "E-MOTO EUROPE",
+    "version": "1.0.0",
+    "description": "Europas spezialisierter Fachbetrieb für High-Performance E-Motos, Hochvolt-Umbausätze (1000W–5000W), 72V Traktionsbatterien nach ADR Klasse 9 sowie 100% StVZO-konforme Pedelec-Systeme.",
+    "homepage": "https://emoto-europe.de",
+    "contact": {
+      "email": "support@emoto-europe.de",
+      "whatsapp": "+49 176 8923 4510"
+    }
+  },
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://emoto-europe.de/api/mcp"
+  },
+  "capabilities": {
+    "tools": [
+      {
+        "name": "search_products",
+        "description": "Search products by keyword, category, max_price",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string"
+            },
+            "category": {
+              "type": "string"
+            },
+            "max_price": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      {
+        "name": "get_product",
+        "description": "Get full product details by slug",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "slug"
+          ],
+          "properties": {
+            "slug": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      {
+        "name": "list_categories",
+        "description": "List all product categories",
+        "inputSchema": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "get_policies",
+        "description": "Get shipping, payment, returns policies and StVZO legal status",
+        "inputSchema": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "create_order_draft",
+        "description": "Create prefilled order URL. Human completes — never captures payment.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array"
+            },
+            "notes": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    ],
+    "resources": [
+      {
+        "name": "product-catalog",
+        "description": "Full product catalog",
+        "uri": "https://emoto-europe.de/shop/"
+      },
+      {
+        "name": "wholesale",
+        "description": "Wholesale pricing",
+        "uri": "https://emoto-europe.de/wholesale/"
+      },
+      {
+        "name": "blog",
+        "description": "Educational and StVZO legal content",
+        "uri": "https://emoto-europe.de/magazin/"
+      }
+    ],
+    "commerce": {
+      "ordering": "human-assisted-sepa-or-whatsapp",
+      "payment": [
+        "sepa-vorkasse",
+        "crypto-BTC",
+        "crypto-USDT",
+        "klarna-rechnung",
+        "ideal",
+        "blik"
+      ],
+      "currency": "EUR",
+      "minimumOrder": 0,
+      "freeShipping": 199
+    }
+  },
+  "legal": {
+    "ageRestriction": "16+",
+    "productType": "E-Motos, E-Bike Conversion Kits & Pedelec Systems",
+    "compliance": "EN 15194, StVZO, ADR Klasse 9 Gefahrgut UN3480/3481, BattG, ElektroG"
+  }
+}

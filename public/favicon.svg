@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <circle cx="32" cy="32" r="30" fill="#141416" stroke="#2a2a32" stroke-width="2"/>
+  <!-- Rotor cooling slots -->
+  <g stroke="#3a3a48" stroke-width="1.8" stroke-linecap="round">
+    <line x1="32" y1="6" x2="32" y2="14"/>
+    <line x1="32" y1="50" x2="32" y2="58"/>
+    <line x1="6" y1="32" x2="14" y2="32"/>
+    <line x1="50" y1="32" x2="58" y2="32"/>
+    <line x1="14" y1="14" x2="20" y2="20"/>
+    <line x1="44" y1="44" x2="50" y2="50"/>
+    <line x1="14" y1="50" x2="20" y2="44"/>
+    <line x1="44" y1="20" x2="50" y2="14"/>
+  </g>
+  <circle cx="32" cy="32" r="16" fill="#1c1c22" stroke="#E63946" stroke-width="2"/>
+  <!-- Lightning bolt in Hyper Red -->
+  <polygon points="35,16 23,34 32,34 29,48 43,30 33,30" fill="#E63946" stroke="#ffffff" stroke-width="0.8"/>
+</svg>

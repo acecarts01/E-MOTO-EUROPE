@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
+  "name": "E-MOTO EUROPE",
+  "url": "https://emoto-europe.de",
+  "description": "Europas Spezialist für High-Performance E-Motos, Umbausätze & Custom Upgrades",
+  "skills": [
+    {
+      "name": "search-products",
+      "type": "commerce",
+      "description": "Search products by keyword, category, or price",
+      "url": "https://emoto-europe.de/api/mcp",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "browse-catalog",
+      "type": "navigation",
+      "description": "Browse the full product catalog by category",
+      "url": "https://emoto-europe.de/shop/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "order-draft",
+      "type": "commerce",
+      "description": "Create a prefilled order draft. Human completes the order.",
+      "url": "https://emoto-europe.de/api/mcp",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "wholesale-inquiry",
+      "type": "commerce",
+      "description": "Wholesale pricing tiers and bulk ordering",
+      "url": "https://emoto-europe.de/wholesale/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "product-education",
+      "type": "content",
+      "description": "Educational blog and StVZO legal guidance",
+      "url": "https://emoto-europe.de/magazin/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "contact",
+      "type": "support",
+      "description": "Contact German engineering support for questions",
+      "url": "https://emoto-europe.de/contact/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

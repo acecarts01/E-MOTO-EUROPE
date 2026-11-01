@@ -1,0 +1,30 @@
+{
+  "issuer": "https://emoto-europe.de",
+  "authorization_endpoint": null,
+  "token_endpoint": null,
+  "jwks_uri": null,
+  "grant_types_supported": [],
+  "response_types_supported": [],
+  "scopes_supported": [],
+  "note": "E-MOTO EUROPE has no protected APIs. All resources publicly accessible.",
+  "public_resources": [
+    "https://emoto-europe.de/shop/",
+    "https://emoto-europe.de/magazin/",
+    "https://emoto-europe.de/faq/",
+    "https://emoto-europe.de/wholesale/",
+    "https://emoto-europe.de/llms.txt",
+    "https://emoto-europe.de/.well-known/api-catalog",
+    "https://emoto-europe.de/.well-known/agent-skills/index.json",
+    "https://emoto-europe.de/.well-known/mcp/server-card.json"
+  ],
+  "agent_auth": {
+    "register_uri": null,
+    "identity_types_supported": [
+      "none"
+    ],
+    "credential_types_supported": [
+      "none"
+    ],
+    "notes": "No registration required. All content publicly accessible to agents."
+  }
+}

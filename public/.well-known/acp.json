@@ -1,0 +1,45 @@
+{
+  "protocol": {
+    "name": "acp",
+    "version": "0.1.0"
+  },
+  "name": "E-MOTO EUROPE",
+  "description": "Europas spezialisierter Fachbetrieb für High-Performance E-Motos, Hochvolt-Umbausätze (1000W–5000W), 72V Traktionsbatterien nach ADR Klasse 9 sowie 100% StVZO-konforme Pedelec-Systeme.",
+  "api_base_url": "https://emoto-europe.de",
+  "homepage": "https://emoto-europe.de",
+  "transports": [
+    "https"
+  ],
+  "capabilities": {
+    "services": [
+      "product-catalog",
+      "wholesale",
+      "magazin",
+      "faq",
+      "mcp-server"
+    ],
+    "ordering": "human-assisted",
+    "payment_methods": [
+      "sepa-vorkasse",
+      "crypto-BTC",
+      "crypto-USDT",
+      "klarna-rechnung",
+      "ideal",
+      "blik"
+    ],
+    "currency": "EUR",
+    "minimum_order_usd": 0,
+    "free_shipping_threshold_usd": 199
+  },
+  "contact": {
+    "whatsapp": "https://wa.me/4917689234510",
+    "email": "support@emoto-europe.de"
+  },
+  "legal": {
+    "age_restriction": "16+",
+    "region": "Deutschland / EU",
+    "ships_to": "DE, AT, CH, EU-27",
+    "product_type": "E-Motos & E-Bike Conversion Kits",
+    "compliance": "EN 15194, StVZO, ADR Klasse 9"
+  }
+}

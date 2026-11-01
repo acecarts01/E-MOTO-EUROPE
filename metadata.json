@@ -1,0 +1,6 @@
+{
+  "name": "E-MOTO EUROPE",
+  "description": "Europas Spezialist für High-Performance E-Motos, Umbausätze 1000W–5000W, 72V Batterien & StVZO-Pedelecs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

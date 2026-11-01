@@ -1,0 +1,48 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://emoto-europe.de/",
+      "https://www.iana.org/assignments/link-relations/service-doc": [
+        {
+          "href": "https://emoto-europe.de/faq/"
+        }
+      ],
+      "title": "E-MOTO EUROPE — Europas Spezialist für High-Performance E-Motos, Umbausätze & Custom Upgrades"
+    },
+    {
+      "anchor": "https://emoto-europe.de/shop/",
+      "type": "text/html",
+      "title": "E-MOTO EUROPE Product Catalog"
+    },
+    {
+      "anchor": "https://emoto-europe.de/wholesale/",
+      "type": "text/html",
+      "title": "E-MOTO EUROPE B2B Wholesale Portal"
+    },
+    {
+      "anchor": "https://emoto-europe.de/api/products",
+      "type": "application/json",
+      "title": "E-MOTO EUROPE Products API"
+    },
+    {
+      "anchor": "https://emoto-europe.de/api/categories",
+      "type": "application/json",
+      "title": "E-MOTO EUROPE Categories API"
+    },
+    {
+      "anchor": "https://emoto-europe.de/api/search",
+      "type": "application/json",
+      "title": "E-MOTO EUROPE Search API"
+    },
+    {
+      "anchor": "https://emoto-europe.de/api/mcp",
+      "type": "application/json",
+      "https://www.iana.org/assignments/link-relations/service-desc": [
+        {
+          "href": "https://emoto-europe.de/.well-known/mcp/server-card.json"
+        }
+      ],
+      "title": "E-MOTO EUROPE MCP Server"
+    }
+  ]
+}
